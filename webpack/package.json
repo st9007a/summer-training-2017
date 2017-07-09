@@ -1,0 +1,31 @@
+{
+  "name": "webpack",
+  "version": "0.0.1",
+  "description": "webpack starter",
+  "scripts": {
+    "build": "webpack --progress",
+    "start": "webpack-dev-server --port 10201 --progress"
+  },
+  "license": "All rights reserved",
+  "dependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-watch": "^2.0.6",
+    "css-loader": "^0.26.1",
+    "extract-loader": "^0.1.0",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^1.2.1",
+    "pug": "^2.0.0-beta6",
+    "pug-html-loader": "^1.0.10",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

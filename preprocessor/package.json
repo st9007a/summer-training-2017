@@ -1,0 +1,18 @@
+{
+  "name": "preprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "node-sass style -o output",
+    "temp": "pug templates --out output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

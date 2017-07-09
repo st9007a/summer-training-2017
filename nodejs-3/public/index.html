@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>nodejs demo</title>
+    <script src='https://code.jquery.com/jquery-3.2.1.js'></script>
+  </head>
+  <body>
+    <h1>get test</h1>
+    <form action='./get-data' method='get'>
+      <input type='text' name='username' />
+      <input type='submit' value='submit' />
+    </form>
+
+    <h1>post test</h1>
+    <form action='./post-data' method='post'>
+      <input type='text' name='username' />
+      <input type='submit' value='submit'>
+    </form>
+
+    <h1>ajax test</h1>
+    <input type='text' id='ajax-field'/>
+    <button id='ajax-submit'>submit</button>
+    <p id='ajax-response'></p>
+
+    <script src='./app.js'></script>
+  </body>
+</html>
